@@ -1,5 +1,5 @@
 #!/bin/bash
-. env
+. ./env
 
 docker stop php-env
 docker rm php-env
